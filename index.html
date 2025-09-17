@@ -1,0 +1,1921 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b8982da961651f7a8801e932158ebb4c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@master/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b8982da961651f7a8801e932158ebb4c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b8982da961651f7a8801e932158ebb4c = L.map(
+                "map_b8982da961651f7a8801e932158ebb4c",
+                {
+                    center: [50.15, 19.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_b8982da961651f7a8801e932158ebb4c);
+
+            
+
+        
+    
+            var tile_layer_3ad0b26c84b0570551d477a3f65d3663 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b8982da961651f7a8801e932158ebb4c);
+        
+    
+            var marker_cluster_8a7ad5699ec5edc2096b558a1130c616 = L.markerClusterGroup(
+                {}
+            );
+            map_b8982da961651f7a8801e932158ebb4c.addLayer(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+            var marker_77b786892f5dc00cd0e3a68a76a879a7 = L.marker(
+                [50.148, 18.842],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_92e4263079ed755101e69d445538cf1e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_adf4591757c94f96e964de4bc06aaa03 = $(`<div id="html_adf4591757c94f96e964de4bc06aaa03" style="width: 100.0%; height: 100.0%;"><b>KS POLONIA ŁAZISKA GÓRNE</b><br/>Miasto: Łaziska Górne</div>`)[0];
+            popup_92e4263079ed755101e69d445538cf1e.setContent(html_adf4591757c94f96e964de4bc06aaa03);
+        
+
+        marker_77b786892f5dc00cd0e3a68a76a879a7.bindPopup(popup_92e4263079ed755101e69d445538cf1e)
+        ;
+
+        
+    
+    
+            marker_77b786892f5dc00cd0e3a68a76a879a7.bindTooltip(
+                `<div>
+                     KS POLONIA ŁAZISKA GÓRNE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a100a35a899a1948fd04c548227adb27 = L.marker(
+                [50.137, 18.966],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_413029bc67227506a1a17e244d938d8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01dc0a373ff34748decb0d1f7b261d11 = $(`<div id="html_01dc0a373ff34748decb0d1f7b261d11" style="width: 100.0%; height: 100.0%;"><b>KP GKS TYCHY S.A.</b><br/>Miasto: Tychy</div>`)[0];
+            popup_413029bc67227506a1a17e244d938d8e.setContent(html_01dc0a373ff34748decb0d1f7b261d11);
+        
+
+        marker_a100a35a899a1948fd04c548227adb27.bindPopup(popup_413029bc67227506a1a17e244d938d8e)
+        ;
+
+        
+    
+    
+            marker_a100a35a899a1948fd04c548227adb27.bindTooltip(
+                `<div>
+                     KP GKS TYCHY S.A.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd61c11c6a2006fc7f18e6f8971a50d5 = L.marker(
+                [50.202, 19.171],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_8774ec1aff0c37cf3d0fa50dcb1b3627 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4eb85df991c34678a9a2bf5d1ab95875 = $(`<div id="html_4eb85df991c34678a9a2bf5d1ab95875" style="width: 100.0%; height: 100.0%;"><b>LKS UNIA KOSZTOWY</b><br/>Miasto: Mysłowice (Kosztowy)</div>`)[0];
+            popup_8774ec1aff0c37cf3d0fa50dcb1b3627.setContent(html_4eb85df991c34678a9a2bf5d1ab95875);
+        
+
+        marker_fd61c11c6a2006fc7f18e6f8971a50d5.bindPopup(popup_8774ec1aff0c37cf3d0fa50dcb1b3627)
+        ;
+
+        
+    
+    
+            marker_fd61c11c6a2006fc7f18e6f8971a50d5.bindTooltip(
+                `<div>
+                     LKS UNIA KOSZTOWY
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_71eadc160c0f4b48b18600fc429391c8 = L.marker(
+                [50.203, 18.755],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_75cf8354fba95ce6c7668ac17d274282 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0952beb2ead7cc0edda4bcab2f58cda2 = $(`<div id="html_0952beb2ead7cc0edda4bcab2f58cda2" style="width: 100.0%; height: 100.0%;"><b>GKS GWAREK ORNONTOWICE</b><br/>Miasto: Ornontowice</div>`)[0];
+            popup_75cf8354fba95ce6c7668ac17d274282.setContent(html_0952beb2ead7cc0edda4bcab2f58cda2);
+        
+
+        marker_71eadc160c0f4b48b18600fc429391c8.bindPopup(popup_75cf8354fba95ce6c7668ac17d274282)
+        ;
+
+        
+    
+    
+            marker_71eadc160c0f4b48b18600fc429391c8.bindTooltip(
+                `<div>
+                     GKS GWAREK ORNONTOWICE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3fc2d9dfd612bc3dff0662091b367163 = L.marker(
+                [50.101, 18.905],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_8a1d34ab626a57265aaf21bbee50fa4e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b81377f6c89a959c1fdbe072b283d705 = $(`<div id="html_b81377f6c89a959c1fdbe072b283d705" style="width: 100.0%; height: 100.0%;"><b>RAKI GOSTYŃ</b><br/>Miasto: Gostyń (Wyry)</div>`)[0];
+            popup_8a1d34ab626a57265aaf21bbee50fa4e.setContent(html_b81377f6c89a959c1fdbe072b283d705);
+        
+
+        marker_3fc2d9dfd612bc3dff0662091b367163.bindPopup(popup_8a1d34ab626a57265aaf21bbee50fa4e)
+        ;
+
+        
+    
+    
+            marker_3fc2d9dfd612bc3dff0662091b367163.bindTooltip(
+                `<div>
+                     RAKI GOSTYŃ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6aaf749794d99fb3812099b574a1c227 = L.marker(
+                [50.2649, 19.0238],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_10addbe1c1bf23dd54e9ab400d75365f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7278ed6f453a3481307db2d0c30e46f0 = $(`<div id="html_7278ed6f453a3481307db2d0c30e46f0" style="width: 100.0%; height: 100.0%;"><b>LGKS 38 PODLESIANKA KATOWICE</b><br/>Miasto: Katowice</div>`)[0];
+            popup_10addbe1c1bf23dd54e9ab400d75365f.setContent(html_7278ed6f453a3481307db2d0c30e46f0);
+        
+
+        marker_6aaf749794d99fb3812099b574a1c227.bindPopup(popup_10addbe1c1bf23dd54e9ab400d75365f)
+        ;
+
+        
+    
+    
+            marker_6aaf749794d99fb3812099b574a1c227.bindTooltip(
+                `<div>
+                     LGKS 38 PODLESIANKA KATOWICE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ec06e82cca34f26888378b9793044544 = L.marker(
+                [50.134, 18.777],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_ce099594fdeb687b3f5a187471b6bb30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_474a8964aee9597abee340c205b023de = $(`<div id="html_474a8964aee9597abee340c205b023de" style="width: 100.0%; height: 100.0%;"><b>LKS GARDAWICE</b><br/>Miasto: Orzesze-Gardawice</div>`)[0];
+            popup_ce099594fdeb687b3f5a187471b6bb30.setContent(html_474a8964aee9597abee340c205b023de);
+        
+
+        marker_ec06e82cca34f26888378b9793044544.bindPopup(popup_ce099594fdeb687b3f5a187471b6bb30)
+        ;
+
+        
+    
+    
+            marker_ec06e82cca34f26888378b9793044544.bindTooltip(
+                `<div>
+                     LKS GARDAWICE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7dff6d82d953ca516762b2e8ee932eb4 = L.marker(
+                [50.091, 19.092],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_3810080097b2183e5d63f4073b27df0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b77aadabfa2189e253b526023e1c9a59 = $(`<div id="html_b77aadabfa2189e253b526023e1c9a59" style="width: 100.0%; height: 100.0%;"><b>KS UNIA BIERUŃ STARY</b><br/>Miasto: Bieruń</div>`)[0];
+            popup_3810080097b2183e5d63f4073b27df0d.setContent(html_b77aadabfa2189e253b526023e1c9a59);
+        
+
+        marker_7dff6d82d953ca516762b2e8ee932eb4.bindPopup(popup_3810080097b2183e5d63f4073b27df0d)
+        ;
+
+        
+    
+    
+            marker_7dff6d82d953ca516762b2e8ee932eb4.bindTooltip(
+                `<div>
+                     KS UNIA BIERUŃ STARY
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7ac83fbcf1fe94c697a9ed9b6573c73c = L.marker(
+                [50.017, 19.063],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_bc8a685918ad7585a5f2f5f56cf846a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd1a50619e5d358d1ea97d670f526302 = $(`<div id="html_fd1a50619e5d358d1ea97d670f526302" style="width: 100.0%; height: 100.0%;"><b>UKS SPS WOLA</b><br/>Miasto: Wola (Miedźna)</div>`)[0];
+            popup_bc8a685918ad7585a5f2f5f56cf846a3.setContent(html_fd1a50619e5d358d1ea97d670f526302);
+        
+
+        marker_7ac83fbcf1fe94c697a9ed9b6573c73c.bindPopup(popup_bc8a685918ad7585a5f2f5f56cf846a3)
+        ;
+
+        
+    
+    
+            marker_7ac83fbcf1fe94c697a9ed9b6573c73c.bindTooltip(
+                `<div>
+                     UKS SPS WOLA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ff35343a72e7e882db58e34d9ed3ab8e = L.marker(
+                [50.299, 18.954],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_576e86801e8c8a47f132a9915b12992d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35ac7760d959c926472bcbbb8e0d6402 = $(`<div id="html_35ac7760d959c926472bcbbb8e0d6402" style="width: 100.0%; height: 100.0%;"><b>RUCH CHORZÓW S.A.</b><br/>Miasto: Chorzów</div>`)[0];
+            popup_576e86801e8c8a47f132a9915b12992d.setContent(html_35ac7760d959c926472bcbbb8e0d6402);
+        
+
+        marker_ff35343a72e7e882db58e34d9ed3ab8e.bindPopup(popup_576e86801e8c8a47f132a9915b12992d)
+        ;
+
+        
+    
+    
+            marker_ff35343a72e7e882db58e34d9ed3ab8e.bindTooltip(
+                `<div>
+                     RUCH CHORZÓW S.A.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35b1b93f33e93b4450d6a6fbdf63b2d7 = L.marker(
+                [49.955, 18.6],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_b0064e2afa649bfec8da1e49ab23a4f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_40bcba0f50f62b50a14c4bf12eae555d = $(`<div id="html_40bcba0f50f62b50a14c4bf12eae555d" style="width: 100.0%; height: 100.0%;"><b>KS GKS JASTRZĘBIE S.A.</b><br/>Miasto: Jastrzębie-Zdrój</div>`)[0];
+            popup_b0064e2afa649bfec8da1e49ab23a4f1.setContent(html_40bcba0f50f62b50a14c4bf12eae555d);
+        
+
+        marker_35b1b93f33e93b4450d6a6fbdf63b2d7.bindPopup(popup_b0064e2afa649bfec8da1e49ab23a4f1)
+        ;
+
+        
+    
+    
+            marker_35b1b93f33e93b4450d6a6fbdf63b2d7.bindTooltip(
+                `<div>
+                     KS GKS JASTRZĘBIE S.A.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0094bdb528569a9026ccdf0d3d56431d = L.marker(
+                [49.8225, 19.0444],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_0c13ac1ff6cbc560ffeb406d20dbe1c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a32ff15130b56041fa4608be6e778ce = $(`<div id="html_8a32ff15130b56041fa4608be6e778ce" style="width: 100.0%; height: 100.0%;"><b>TS PODBESKIDZIE S.A.</b><br/>Miasto: Bielsko-Biała</div>`)[0];
+            popup_0c13ac1ff6cbc560ffeb406d20dbe1c7.setContent(html_8a32ff15130b56041fa4608be6e778ce);
+        
+
+        marker_0094bdb528569a9026ccdf0d3d56431d.bindPopup(popup_0c13ac1ff6cbc560ffeb406d20dbe1c7)
+        ;
+
+        
+    
+    
+            marker_0094bdb528569a9026ccdf0d3d56431d.bindTooltip(
+                `<div>
+                     TS PODBESKIDZIE S.A.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ebff8618bd9ebfec1dc15da7e0eb062a = L.marker(
+                [50.324, 18.785],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_106b496ac6cf64534e05ca3fd7b0f170 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba37dbeeeeb8242493d1f3052f0e63cf = $(`<div id="html_ba37dbeeeeb8242493d1f3052f0e63cf" style="width: 100.0%; height: 100.0%;"><b>GÓRNIK ZABRZE S.A.</b><br/>Miasto: Zabrze</div>`)[0];
+            popup_106b496ac6cf64534e05ca3fd7b0f170.setContent(html_ba37dbeeeeb8242493d1f3052f0e63cf);
+        
+
+        marker_ebff8618bd9ebfec1dc15da7e0eb062a.bindPopup(popup_106b496ac6cf64534e05ca3fd7b0f170)
+        ;
+
+        
+    
+    
+            marker_ebff8618bd9ebfec1dc15da7e0eb062a.bindTooltip(
+                `<div>
+                     GÓRNIK ZABRZE S.A.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e3ea98bcee17a4a2e8326321f15f0f67 = L.marker(
+                [50.137, 18.966],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_cd956be98cc4a3a24de4a43f252836bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c10662903e1ec61b497c5f8fe89d099c = $(`<div id="html_c10662903e1ec61b497c5f8fe89d099c" style="width: 100.0%; height: 100.0%;"><b>KS SIÓDEMKA TYCHY</b><br/>Miasto: Tychy</div>`)[0];
+            popup_cd956be98cc4a3a24de4a43f252836bb.setContent(html_c10662903e1ec61b497c5f8fe89d099c);
+        
+
+        marker_e3ea98bcee17a4a2e8326321f15f0f67.bindPopup(popup_cd956be98cc4a3a24de4a43f252836bb)
+        ;
+
+        
+    
+    
+            marker_e3ea98bcee17a4a2e8326321f15f0f67.bindTooltip(
+                `<div>
+                     KS SIÓDEMKA TYCHY
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_553d3f308ba2157ba4a996614ab64fb2 = L.marker(
+                [50.103, 19.315],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_6e348e60e98a66c8706ef77944863af6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a637073f71fd2ef64b55ae3e7167218a = $(`<div id="html_a637073f71fd2ef64b55ae3e7167218a" style="width: 100.0%; height: 100.0%;"><b>UKS GÓRNIK LIBIĄŻ</b><br/>Miasto: Libiąż</div>`)[0];
+            popup_6e348e60e98a66c8706ef77944863af6.setContent(html_a637073f71fd2ef64b55ae3e7167218a);
+        
+
+        marker_553d3f308ba2157ba4a996614ab64fb2.bindPopup(popup_6e348e60e98a66c8706ef77944863af6)
+        ;
+
+        
+    
+    
+            marker_553d3f308ba2157ba4a996614ab64fb2.bindTooltip(
+                `<div>
+                     UKS GÓRNIK LIBIĄŻ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4535dc13f93df1711aabaa8bcb2d0fba = L.marker(
+                [49.626, 19.126],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_5abf949e8bda468e5a53c609ab506a96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a6a1d68f9b624949e8af2564a01500a = $(`<div id="html_6a6a1d68f9b624949e8af2564a01500a" style="width: 100.0%; height: 100.0%;"><b>LKS ŚWIT CIĘCINA</b><br/>Miasto: Cięcina</div>`)[0];
+            popup_5abf949e8bda468e5a53c609ab506a96.setContent(html_6a6a1d68f9b624949e8af2564a01500a);
+        
+
+        marker_4535dc13f93df1711aabaa8bcb2d0fba.bindPopup(popup_5abf949e8bda468e5a53c609ab506a96)
+        ;
+
+        
+    
+    
+            marker_4535dc13f93df1711aabaa8bcb2d0fba.bindTooltip(
+                `<div>
+                     LKS ŚWIT CIĘCINA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_75b4007ae5f5538de9e40ebf80ac811b = L.marker(
+                [50.675, 17.924],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_ff93979543a53476320aeb357aee9c34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_390dcef549488eac77dce337afffc7f1 = $(`<div id="html_390dcef549488eac77dce337afffc7f1" style="width: 100.0%; height: 100.0%;"><b>OKS ODRA OPOLE</b><br/>Miasto: Opole</div>`)[0];
+            popup_ff93979543a53476320aeb357aee9c34.setContent(html_390dcef549488eac77dce337afffc7f1);
+        
+
+        marker_75b4007ae5f5538de9e40ebf80ac811b.bindPopup(popup_ff93979543a53476320aeb357aee9c34)
+        ;
+
+        
+    
+    
+            marker_75b4007ae5f5538de9e40ebf80ac811b.bindTooltip(
+                `<div>
+                     OKS ODRA OPOLE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28e133d4fb6a8e88b829aceb1281b2b2 = L.marker(
+                [49.689, 19.199],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_d453471591c99a03be333afe6d79e1a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23a2cac174f1a2d8257437b947f1fe5f = $(`<div id="html_23a2cac174f1a2d8257437b947f1fe5f" style="width: 100.0%; height: 100.0%;"><b>TS KOSZARAWA ŻYWIEC</b><br/>Miasto: Żywiec</div>`)[0];
+            popup_d453471591c99a03be333afe6d79e1a6.setContent(html_23a2cac174f1a2d8257437b947f1fe5f);
+        
+
+        marker_28e133d4fb6a8e88b829aceb1281b2b2.bindPopup(popup_d453471591c99a03be333afe6d79e1a6)
+        ;
+
+        
+    
+    
+            marker_28e133d4fb6a8e88b829aceb1281b2b2.bindTooltip(
+                `<div>
+                     TS KOSZARAWA ŻYWIEC
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f2f9b5a63a6b5255c931c312bd989003 = L.marker(
+                [50.321, 19.19],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_2a2d4a1dc4ad16b14ef57fb2be38fda5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8160039c72967f6b57be3af47a48ddc3 = $(`<div id="html_8160039c72967f6b57be3af47a48ddc3" style="width: 100.0%; height: 100.0%;"><b>RKS ZAGŁĘBIE DĄBROWA GÓRNICZA</b><br/>Miasto: Dąbrowa Górnicza</div>`)[0];
+            popup_2a2d4a1dc4ad16b14ef57fb2be38fda5.setContent(html_8160039c72967f6b57be3af47a48ddc3);
+        
+
+        marker_f2f9b5a63a6b5255c931c312bd989003.bindPopup(popup_2a2d4a1dc4ad16b14ef57fb2be38fda5)
+        ;
+
+        
+    
+    
+            marker_f2f9b5a63a6b5255c931c312bd989003.bindTooltip(
+                `<div>
+                     RKS ZAGŁĘBIE DĄBROWA GÓRNICZA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b4f19d2105dc83f6c840e574808ca590 = L.marker(
+                [51.069, 19.444],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_71744c4ac624d19f206654cdf0263667 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_98d3e79d120afa032d916f6f6274c562 = $(`<div id="html_98d3e79d120afa032d916f6f6274c562" style="width: 100.0%; height: 100.0%;"><b>UKS RAP RADOMSKO</b><br/>Miasto: Radomsko</div>`)[0];
+            popup_71744c4ac624d19f206654cdf0263667.setContent(html_98d3e79d120afa032d916f6f6274c562);
+        
+
+        marker_b4f19d2105dc83f6c840e574808ca590.bindPopup(popup_71744c4ac624d19f206654cdf0263667)
+        ;
+
+        
+    
+    
+            marker_b4f19d2105dc83f6c840e574808ca590.bindTooltip(
+                `<div>
+                     UKS RAP RADOMSKO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d89bb25f8818fd2b98d201c132788a0 = L.marker(
+                [50.873, 20.63],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_1acb631ce6f29bb97ae999d8aed8b10b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6268cefd1befc40134d37c5b87375b3 = $(`<div id="html_a6268cefd1befc40134d37c5b87375b3" style="width: 100.0%; height: 100.0%;"><b>KKP KORONA Kielce</b><br/>Miasto: Kielce</div>`)[0];
+            popup_1acb631ce6f29bb97ae999d8aed8b10b.setContent(html_a6268cefd1befc40134d37c5b87375b3);
+        
+
+        marker_9d89bb25f8818fd2b98d201c132788a0.bindPopup(popup_1acb631ce6f29bb97ae999d8aed8b10b)
+        ;
+
+        
+    
+    
+            marker_9d89bb25f8818fd2b98d201c132788a0.bindTooltip(
+                `<div>
+                     KKP KORONA Kielce
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d514da7615639437c73ac70bf88f6017 = L.marker(
+                [49.847, 18.589],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_970fd5d0057beb08ab7f1773ec4a57b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_109007f838d893e9234b717b69edcafb = $(`<div id="html_109007f838d893e9234b717b69edcafb" style="width: 100.0%; height: 100.0%;"><b>GKS MORCINEK KACZYCE</b><br/>Miasto: Kaczyce</div>`)[0];
+            popup_970fd5d0057beb08ab7f1773ec4a57b3.setContent(html_109007f838d893e9234b717b69edcafb);
+        
+
+        marker_d514da7615639437c73ac70bf88f6017.bindPopup(popup_970fd5d0057beb08ab7f1773ec4a57b3)
+        ;
+
+        
+    
+    
+            marker_d514da7615639437c73ac70bf88f6017.bindTooltip(
+                `<div>
+                     GKS MORCINEK KACZYCE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_960cfdc149f06774825828ef73c6cf1c = L.marker(
+                [50.139, 19.404],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_3cf3524227bf19980b5c5a74a87f5717 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da48bd181bb7f7f994aba47ae905ae26 = $(`<div id="html_da48bd181bb7f7f994aba47ae905ae26" style="width: 100.0%; height: 100.0%;"><b>AP 21 CHRZANÓW</b><br/>Miasto: Chrzanów</div>`)[0];
+            popup_3cf3524227bf19980b5c5a74a87f5717.setContent(html_da48bd181bb7f7f994aba47ae905ae26);
+        
+
+        marker_960cfdc149f06774825828ef73c6cf1c.bindPopup(popup_3cf3524227bf19980b5c5a74a87f5717)
+        ;
+
+        
+    
+    
+            marker_960cfdc149f06774825828ef73c6cf1c.bindTooltip(
+                `<div>
+                     AP 21 CHRZANÓW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0f44c5caecb0497a966c8bc721bb0fe7 = L.marker(
+                [49.955, 18.6],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_4bdfa057a0e2a1c2ec02037c315045d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72c0e70998a3a02ec9fcfabcb79badf5 = $(`<div id="html_72c0e70998a3a02ec9fcfabcb79badf5" style="width: 100.0%; height: 100.0%;"><b>UKS ORZEŁ MOSZCZENICA</b><br/>Miasto: Jastrzębie-Zdrój</div>`)[0];
+            popup_4bdfa057a0e2a1c2ec02037c315045d4.setContent(html_72c0e70998a3a02ec9fcfabcb79badf5);
+        
+
+        marker_0f44c5caecb0497a966c8bc721bb0fe7.bindPopup(popup_4bdfa057a0e2a1c2ec02037c315045d4)
+        ;
+
+        
+    
+    
+            marker_0f44c5caecb0497a966c8bc721bb0fe7.bindTooltip(
+                `<div>
+                     UKS ORZEŁ MOSZCZENICA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0e18c09891b97f6463b482d5350458ea = L.marker(
+                [50.811, 19.12],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_b62591593bbc5e885f9b828081294617 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9389410ab3a5e94cf5ae68cfde6c368 = $(`<div id="html_a9389410ab3a5e94cf5ae68cfde6c368" style="width: 100.0%; height: 100.0%;"><b>SPORTOWA CZĘSTOCHOWA</b><br/>Miasto: Częstochowa</div>`)[0];
+            popup_b62591593bbc5e885f9b828081294617.setContent(html_a9389410ab3a5e94cf5ae68cfde6c368);
+        
+
+        marker_0e18c09891b97f6463b482d5350458ea.bindPopup(popup_b62591593bbc5e885f9b828081294617)
+        ;
+
+        
+    
+    
+            marker_0e18c09891b97f6463b482d5350458ea.bindTooltip(
+                `<div>
+                     SPORTOWA CZĘSTOCHOWA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1f06f603d019d677c41abefc19920392 = L.marker(
+                [49.985, 19.079],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_2abc66d569d9c2ab7e674bfa3bf2d1d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bfadd8ffde286a32627cf752c983c08b = $(`<div id="html_bfadd8ffde286a32627cf752c983c08b" style="width: 100.0%; height: 100.0%;"><b>LKS RUDOŁTOWICE-ĆWIKLICE</b><br/>Miasto: Ćwiklice</div>`)[0];
+            popup_2abc66d569d9c2ab7e674bfa3bf2d1d3.setContent(html_bfadd8ffde286a32627cf752c983c08b);
+        
+
+        marker_1f06f603d019d677c41abefc19920392.bindPopup(popup_2abc66d569d9c2ab7e674bfa3bf2d1d3)
+        ;
+
+        
+    
+    
+            marker_1f06f603d019d677c41abefc19920392.bindTooltip(
+                `<div>
+                     LKS RUDOŁTOWICE-ĆWIKLICE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f5a4014e3ebd94c790d29e29b4843654 = L.marker(
+                [50.902, 18.939],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_ce8a97b61c9f4da22350d7a0f2524d17 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1c419305a3ecde94aeab55a908e6839 = $(`<div id="html_c1c419305a3ecde94aeab55a908e6839" style="width: 100.0%; height: 100.0%;"><b>ZALCHEM ZNICZ KŁOBUCK</b><br/>Miasto: Kłobuck</div>`)[0];
+            popup_ce8a97b61c9f4da22350d7a0f2524d17.setContent(html_c1c419305a3ecde94aeab55a908e6839);
+        
+
+        marker_f5a4014e3ebd94c790d29e29b4843654.bindPopup(popup_ce8a97b61c9f4da22350d7a0f2524d17)
+        ;
+
+        
+    
+    
+            marker_f5a4014e3ebd94c790d29e29b4843654.bindTooltip(
+                `<div>
+                     ZALCHEM ZNICZ KŁOBUCK
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2f23abd7f62aa82a09fbd83c9ddb361f = L.marker(
+                [50.017, 19.063],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_affe6b3782148ea1fa52d55fc8e2be6e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ebcec175131de5306ff8daee8ea892e1 = $(`<div id="html_ebcec175131de5306ff8daee8ea892e1" style="width: 100.0%; height: 100.0%;"><b>LKS SOKÓŁ WOLA</b><br/>Miasto: Wola (Miedźna)</div>`)[0];
+            popup_affe6b3782148ea1fa52d55fc8e2be6e.setContent(html_ebcec175131de5306ff8daee8ea892e1);
+        
+
+        marker_2f23abd7f62aa82a09fbd83c9ddb361f.bindPopup(popup_affe6b3782148ea1fa52d55fc8e2be6e)
+        ;
+
+        
+    
+    
+            marker_2f23abd7f62aa82a09fbd83c9ddb361f.bindTooltip(
+                `<div>
+                     LKS SOKÓŁ WOLA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e24a7fe0f78dbf1f68ccb66813aa605 = L.marker(
+                [50.18, 19.128],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_a63e961c47574cc3da548f26a31794ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ade3ba2820c8f9e713296ba71134937 = $(`<div id="html_4ade3ba2820c8f9e713296ba71134937" style="width: 100.0%; height: 100.0%;"><b>MKS GÓRNIK WESOŁA</b><br/>Miasto: Wesoła (Mysłowice)</div>`)[0];
+            popup_a63e961c47574cc3da548f26a31794ff.setContent(html_4ade3ba2820c8f9e713296ba71134937);
+        
+
+        marker_1e24a7fe0f78dbf1f68ccb66813aa605.bindPopup(popup_a63e961c47574cc3da548f26a31794ff)
+        ;
+
+        
+    
+    
+            marker_1e24a7fe0f78dbf1f68ccb66813aa605.bindTooltip(
+                `<div>
+                     MKS GÓRNIK WESOŁA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e47fd2e34f36fbacd7ebe4de588a3e61 = L.marker(
+                [50.321, 19.19],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_698cc544a15881a83749259dd9d7b368 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_693290deed0ecdd018322db5f20d4269 = $(`<div id="html_693290deed0ecdd018322db5f20d4269" style="width: 100.0%; height: 100.0%;"><b>MUKP DĄBROWA GÓRNICZA</b><br/>Miasto: Dąbrowa Górnicza</div>`)[0];
+            popup_698cc544a15881a83749259dd9d7b368.setContent(html_693290deed0ecdd018322db5f20d4269);
+        
+
+        marker_e47fd2e34f36fbacd7ebe4de588a3e61.bindPopup(popup_698cc544a15881a83749259dd9d7b368)
+        ;
+
+        
+    
+    
+            marker_e47fd2e34f36fbacd7ebe4de588a3e61.bindTooltip(
+                `<div>
+                     MUKP DĄBROWA GÓRNICZA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4e09a65bc49e942f18c32574fa2d06b4 = L.marker(
+                [50.811, 19.12],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_1196d7a28719d4901292756d6482c23e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6942eb32c557fd43bfae17edcb443f9f = $(`<div id="html_6942eb32c557fd43bfae17edcb443f9f" style="width: 100.0%; height: 100.0%;"><b>RKS RAKÓW CZĘSTOCHOWA S.A.</b><br/>Miasto: Częstochowa</div>`)[0];
+            popup_1196d7a28719d4901292756d6482c23e.setContent(html_6942eb32c557fd43bfae17edcb443f9f);
+        
+
+        marker_4e09a65bc49e942f18c32574fa2d06b4.bindPopup(popup_1196d7a28719d4901292756d6482c23e)
+        ;
+
+        
+    
+    
+            marker_4e09a65bc49e942f18c32574fa2d06b4.bindTooltip(
+                `<div>
+                     RKS RAKÓW CZĘSTOCHOWA S.A.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b4e94b1ae8d671adf038c10d77bd662 = L.marker(
+                [50.205, 18.896],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_7c807685de33fa8b1d1e521b1d547590 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02dae7fdfd565bc458de509a50ef4cc2 = $(`<div id="html_02dae7fdfd565bc458de509a50ef4cc2" style="width: 100.0%; height: 100.0%;"><b>LKS ORZEŁ MOKRE</b><br/>Miasto: Mokre (Mikołów)</div>`)[0];
+            popup_7c807685de33fa8b1d1e521b1d547590.setContent(html_02dae7fdfd565bc458de509a50ef4cc2);
+        
+
+        marker_6b4e94b1ae8d671adf038c10d77bd662.bindPopup(popup_7c807685de33fa8b1d1e521b1d547590)
+        ;
+
+        
+    
+    
+            marker_6b4e94b1ae8d671adf038c10d77bd662.bindTooltip(
+                `<div>
+                     LKS ORZEŁ MOKRE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_220f47be6a2ed3a9dc8ad1d327435650 = L.marker(
+                [49.988, 19.262],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_88d253b44fda0d5cd86d2e7a285af8fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a7eff604bb667c69d04e8da305e492a3 = $(`<div id="html_a7eff604bb667c69d04e8da305e492a3" style="width: 100.0%; height: 100.0%;"><b>Zgoda Malec</b><br/>Miasto: Zgoda Malec</div>`)[0];
+            popup_88d253b44fda0d5cd86d2e7a285af8fd.setContent(html_a7eff604bb667c69d04e8da305e492a3);
+        
+
+        marker_220f47be6a2ed3a9dc8ad1d327435650.bindPopup(popup_88d253b44fda0d5cd86d2e7a285af8fd)
+        ;
+
+        
+    
+    
+            marker_220f47be6a2ed3a9dc8ad1d327435650.bindTooltip(
+                `<div>
+                     Zgoda Malec
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3406d2846a24014613dcd7aa79a71eac = L.marker(
+                [49.888, 18.618],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_0460aa40f77e703562d10214c5eaeba4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3eed5527af893168ff0a1d19fc79ac1 = $(`<div id="html_a3eed5527af893168ff0a1d19fc79ac1" style="width: 100.0%; height: 100.0%;"><b>KKS SPÓJNIA ZEBRZYDOWICE</b><br/>Miasto: Zebrzydowice</div>`)[0];
+            popup_0460aa40f77e703562d10214c5eaeba4.setContent(html_a3eed5527af893168ff0a1d19fc79ac1);
+        
+
+        marker_3406d2846a24014613dcd7aa79a71eac.bindPopup(popup_0460aa40f77e703562d10214c5eaeba4)
+        ;
+
+        
+    
+    
+            marker_3406d2846a24014613dcd7aa79a71eac.bindTooltip(
+                `<div>
+                     KKS SPÓJNIA ZEBRZYDOWICE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_86dc4508b160f19d724f253a550bd751 = L.marker(
+                [50.204, 19.274],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_956e9b30e94cee4e1417a58d432ae243 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3bbdcf37aaf6b1db9f6cde9368bf8674 = $(`<div id="html_3bbdcf37aaf6b1db9f6cde9368bf8674" style="width: 100.0%; height: 100.0%;"><b>JSP SZCZAKOWIANKA</b><br/>Miasto: Jaworzno</div>`)[0];
+            popup_956e9b30e94cee4e1417a58d432ae243.setContent(html_3bbdcf37aaf6b1db9f6cde9368bf8674);
+        
+
+        marker_86dc4508b160f19d724f253a550bd751.bindPopup(popup_956e9b30e94cee4e1417a58d432ae243)
+        ;
+
+        
+    
+    
+            marker_86dc4508b160f19d724f253a550bd751.bindTooltip(
+                `<div>
+                     JSP SZCZAKOWIANKA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_74c26a637956b9e54e1b036db10b6be2 = L.marker(
+                [49.981, 18.919],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_065480f7796f8aca05484036e3af812e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_498a7d7e87e27b8424b3ccec1b3ad5fa = $(`<div id="html_498a7d7e87e27b8424b3ccec1b3ad5fa" style="width: 100.0%; height: 100.0%;"><b>LKS WISŁA WIELKA</b><br/>Miasto: Wisła Wielka</div>`)[0];
+            popup_065480f7796f8aca05484036e3af812e.setContent(html_498a7d7e87e27b8424b3ccec1b3ad5fa);
+        
+
+        marker_74c26a637956b9e54e1b036db10b6be2.bindPopup(popup_065480f7796f8aca05484036e3af812e)
+        ;
+
+        
+    
+    
+            marker_74c26a637956b9e54e1b036db10b6be2.bindTooltip(
+                `<div>
+                     LKS WISŁA WIELKA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_540ce7211e50cff896c2d0f1720e09d5 = L.marker(
+                [50.282, 19.563],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_0babe81e8075ab605b0021955b994094 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60468dd9eb5adc50d5f156eaf4fea8c8 = $(`<div id="html_60468dd9eb5adc50d5f156eaf4fea8c8" style="width: 100.0%; height: 100.0%;"><b>KS Olkusz</b><br/>Miasto: Olkusz</div>`)[0];
+            popup_0babe81e8075ab605b0021955b994094.setContent(html_60468dd9eb5adc50d5f156eaf4fea8c8);
+        
+
+        marker_540ce7211e50cff896c2d0f1720e09d5.bindPopup(popup_0babe81e8075ab605b0021955b994094)
+        ;
+
+        
+    
+    
+            marker_540ce7211e50cff896c2d0f1720e09d5.bindTooltip(
+                `<div>
+                     KS Olkusz
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f112a031111474c404bdf58354a6b94c = L.marker(
+                [49.85, 18.999],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_c18ffa72751f9c8bbaa68019c41fe89d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f19c41d022ea408f0511abdd54fa6bf8 = $(`<div id="html_f19c41d022ea408f0511abdd54fa6bf8" style="width: 100.0%; height: 100.0%;"><b>KS POLONIA MIĘDZYRZECZE</b><br/>Miasto: Międzyrzecze (Jasienica)</div>`)[0];
+            popup_c18ffa72751f9c8bbaa68019c41fe89d.setContent(html_f19c41d022ea408f0511abdd54fa6bf8);
+        
+
+        marker_f112a031111474c404bdf58354a6b94c.bindPopup(popup_c18ffa72751f9c8bbaa68019c41fe89d)
+        ;
+
+        
+    
+    
+            marker_f112a031111474c404bdf58354a6b94c.bindTooltip(
+                `<div>
+                     KS POLONIA MIĘDZYRZECZE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0654b7dfb198b9d0b685992f84386be4 = L.marker(
+                [49.956, 18.981],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_6ebad6795f3aa9861560bad56b5d790f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d172f157a43e71d1061a9ab8c7e693fc = $(`<div id="html_d172f157a43e71d1061a9ab8c7e693fc" style="width: 100.0%; height: 100.0%;"><b>AKADEMIA BVB im. ŁUKASZA PISZCZKA</b><br/>Miasto: Goczałkowice-Zdrój</div>`)[0];
+            popup_6ebad6795f3aa9861560bad56b5d790f.setContent(html_d172f157a43e71d1061a9ab8c7e693fc);
+        
+
+        marker_0654b7dfb198b9d0b685992f84386be4.bindPopup(popup_6ebad6795f3aa9861560bad56b5d790f)
+        ;
+
+        
+    
+    
+            marker_0654b7dfb198b9d0b685992f84386be4.bindTooltip(
+                `<div>
+                     AKADEMIA BVB im. ŁUKASZA PISZCZKA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8723b1bd92aef75e84e0a3192bd10def = L.marker(
+                [49.98, 18.938],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_93765d25ffa460bddbd6985ff28ef7fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7f348e86af677376434d1c550aff436 = $(`<div id="html_e7f348e86af677376434d1c550aff436" style="width: 100.0%; height: 100.0%;"><b>MKS ISKRA PSZCZYNA</b><br/>Miasto: Pszczyna</div>`)[0];
+            popup_93765d25ffa460bddbd6985ff28ef7fd.setContent(html_e7f348e86af677376434d1c550aff436);
+        
+
+        marker_8723b1bd92aef75e84e0a3192bd10def.bindPopup(popup_93765d25ffa460bddbd6985ff28ef7fd)
+        ;
+
+        
+    
+    
+            marker_8723b1bd92aef75e84e0a3192bd10def.bindTooltip(
+                `<div>
+                     MKS ISKRA PSZCZYNA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ebf9abdea48ab6a88e678501ff29ac5b = L.marker(
+                [49.79, 19.005],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_ac9e160f144bc1336f3253e26bd85146 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9c6b2c806930d60d00d6fd5f79ec613 = $(`<div id="html_a9c6b2c806930d60d00d6fd5f79ec613" style="width: 100.0%; height: 100.0%;"><b>LKS ZAPORA WAPIENICA</b><br/>Miasto: Wapienica (Bielsko-Biała)</div>`)[0];
+            popup_ac9e160f144bc1336f3253e26bd85146.setContent(html_a9c6b2c806930d60d00d6fd5f79ec613);
+        
+
+        marker_ebf9abdea48ab6a88e678501ff29ac5b.bindPopup(popup_ac9e160f144bc1336f3253e26bd85146)
+        ;
+
+        
+    
+    
+            marker_ebf9abdea48ab6a88e678501ff29ac5b.bindTooltip(
+                `<div>
+                     LKS ZAPORA WAPIENICA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c75e5704b73aa8c2f9834a367910cc3c = L.marker(
+                [50.153, 18.677],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_6ee072404fb385707b13f03163655819 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4c47983e1b4352d4f7f43612fba25e9 = $(`<div id="html_d4c47983e1b4352d4f7f43612fba25e9" style="width: 100.0%; height: 100.0%;"><b>MKS MOSIR CZERWIONKA-LESZCZYNY</b><br/>Miasto: Czerwionka-Leszczyny</div>`)[0];
+            popup_6ee072404fb385707b13f03163655819.setContent(html_d4c47983e1b4352d4f7f43612fba25e9);
+        
+
+        marker_c75e5704b73aa8c2f9834a367910cc3c.bindPopup(popup_6ee072404fb385707b13f03163655819)
+        ;
+
+        
+    
+    
+            marker_c75e5704b73aa8c2f9834a367910cc3c.bindTooltip(
+                `<div>
+                     MKS MOSIR CZERWIONKA-LESZCZYNY
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35ecc542e891beb7eb464b14b8e19ead = L.marker(
+                [50.846, 18.94],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_01df5f11296ca1f7f935904aa1661d73 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0086b92e305820180f8cd28b643d9f61 = $(`<div id="html_0086b92e305820180f8cd28b643d9f61" style="width: 100.0%; height: 100.0%;"><b>KS SOKÓŁ WRĘCZYCA</b><br/>Miasto: Wręczyca Wielka</div>`)[0];
+            popup_01df5f11296ca1f7f935904aa1661d73.setContent(html_0086b92e305820180f8cd28b643d9f61);
+        
+
+        marker_35ecc542e891beb7eb464b14b8e19ead.bindPopup(popup_01df5f11296ca1f7f935904aa1661d73)
+        ;
+
+        
+    
+    
+            marker_35ecc542e891beb7eb464b14b8e19ead.bindTooltip(
+                `<div>
+                     KS SOKÓŁ WRĘCZYCA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_acfc3f42317d759f9b4a43d0e057bf37 = L.marker(
+                [50.324, 18.785],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_2c416b4f10d593424cfbb054bf948f7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8d4f697b8248300864d73018a766581 = $(`<div id="html_a8d4f697b8248300864d73018a766581" style="width: 100.0%; height: 100.0%;"><b>SKS GWAREK ZABRZE</b><br/>Miasto: Zabrze</div>`)[0];
+            popup_2c416b4f10d593424cfbb054bf948f7b.setContent(html_a8d4f697b8248300864d73018a766581);
+        
+
+        marker_acfc3f42317d759f9b4a43d0e057bf37.bindPopup(popup_2c416b4f10d593424cfbb054bf948f7b)
+        ;
+
+        
+    
+    
+            marker_acfc3f42317d759f9b4a43d0e057bf37.bindTooltip(
+                `<div>
+                     SKS GWAREK ZABRZE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e3e5052611817500b05add1465b99a6b = L.marker(
+                [50.019, 18.846],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_d3478863a0a446983fb87ccdb4992d37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e489ec17eab0d5d08720a9763f3bee5 = $(`<div id="html_0e489ec17eab0d5d08720a9763f3bee5" style="width: 100.0%; height: 100.0%;"><b>LKS MIZERÓW</b><br/>Miasto: Mizerów</div>`)[0];
+            popup_d3478863a0a446983fb87ccdb4992d37.setContent(html_0e489ec17eab0d5d08720a9763f3bee5);
+        
+
+        marker_e3e5052611817500b05add1465b99a6b.bindPopup(popup_d3478863a0a446983fb87ccdb4992d37)
+        ;
+
+        
+    
+    
+            marker_e3e5052611817500b05add1465b99a6b.bindTooltip(
+                `<div>
+                     LKS MIZERÓW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c3261814558192d27d9a90e5724bba2f = L.marker(
+                [49.981, 19.151],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_1e5cfd3aabd4d87057e55432a508d53a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2fddf8f37e54770ebbf262546bd28e20 = $(`<div id="html_2fddf8f37e54770ebbf262546bd28e20" style="width: 100.0%; height: 100.0%;"><b>SZKÓŁKA PIŁKARSKA BRZESZCZE</b><br/>Miasto: Brzeszcze</div>`)[0];
+            popup_1e5cfd3aabd4d87057e55432a508d53a.setContent(html_2fddf8f37e54770ebbf262546bd28e20);
+        
+
+        marker_c3261814558192d27d9a90e5724bba2f.bindPopup(popup_1e5cfd3aabd4d87057e55432a508d53a)
+        ;
+
+        
+    
+    
+            marker_c3261814558192d27d9a90e5724bba2f.bindTooltip(
+                `<div>
+                     SZKÓŁKA PIŁKARSKA BRZESZCZE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_760745de3fdc1bcb36807feb029339d3 = L.marker(
+                [49.786, 18.796],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_22275546aa9dfef2210359cd5448664a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e692fee8c76862790fecc87b35a2eff1 = $(`<div id="html_e692fee8c76862790fecc87b35a2eff1" style="width: 100.0%; height: 100.0%;"><b>LKS POGÓRZE</b><br/>Miasto: Pogórze (Skoczów)</div>`)[0];
+            popup_22275546aa9dfef2210359cd5448664a.setContent(html_e692fee8c76862790fecc87b35a2eff1);
+        
+
+        marker_760745de3fdc1bcb36807feb029339d3.bindPopup(popup_22275546aa9dfef2210359cd5448664a)
+        ;
+
+        
+    
+    
+            marker_760745de3fdc1bcb36807feb029339d3.bindTooltip(
+                `<div>
+                     LKS POGÓRZE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e4127a7450e66e8d11e52bd58938dbd0 = L.marker(
+                [50.511, 18.3],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_d78bfd5cdb204fa704777ad74f7a86b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f81113950e89414756d6991d5db9b31 = $(`<div id="html_1f81113950e89414756d6991d5db9b31" style="width: 100.0%; height: 100.0%;"><b>SKS PIAST STRZELCE OPOLSKIE</b><br/>Miasto: Strzelce Opolskie</div>`)[0];
+            popup_d78bfd5cdb204fa704777ad74f7a86b5.setContent(html_1f81113950e89414756d6991d5db9b31);
+        
+
+        marker_e4127a7450e66e8d11e52bd58938dbd0.bindPopup(popup_d78bfd5cdb204fa704777ad74f7a86b5)
+        ;
+
+        
+    
+    
+            marker_e4127a7450e66e8d11e52bd58938dbd0.bindTooltip(
+                `<div>
+                     SKS PIAST STRZELCE OPOLSKIE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_24120766287a1daa4b689e38b41565b3 = L.marker(
+                [50.171, 18.904],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_e2f2d7be5b9668accb00ddf29fedd7e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29fbfdc1877b169d1d0ca886f9aa5f28 = $(`<div id="html_29fbfdc1877b169d1d0ca886f9aa5f28" style="width: 100.0%; height: 100.0%;"><b>AKS MIKOŁÓW</b><br/>Miasto: Mikołów</div>`)[0];
+            popup_e2f2d7be5b9668accb00ddf29fedd7e0.setContent(html_29fbfdc1877b169d1d0ca886f9aa5f28);
+        
+
+        marker_24120766287a1daa4b689e38b41565b3.bindPopup(popup_e2f2d7be5b9668accb00ddf29fedd7e0)
+        ;
+
+        
+    
+    
+            marker_24120766287a1daa4b689e38b41565b3.bindTooltip(
+                `<div>
+                     AKS MIKOŁÓW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a0b547423e5f670f390be3cf037708eb = L.marker(
+                [50.003, 18.471],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_decc456fcf2962f2db0ae171f1c89cfb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd78411e52a13b6a4bb6ac3e61b85cbc = $(`<div id="html_fd78411e52a13b6a4bb6ac3e61b85cbc" style="width: 100.0%; height: 100.0%;"><b>UKS RAPID WODZISŁAW ŚLĄSKI</b><br/>Miasto: Wodzisław Śląski</div>`)[0];
+            popup_decc456fcf2962f2db0ae171f1c89cfb.setContent(html_fd78411e52a13b6a4bb6ac3e61b85cbc);
+        
+
+        marker_a0b547423e5f670f390be3cf037708eb.bindPopup(popup_decc456fcf2962f2db0ae171f1c89cfb)
+        ;
+
+        
+    
+    
+            marker_a0b547423e5f670f390be3cf037708eb.bindTooltip(
+                `<div>
+                     UKS RAPID WODZISŁAW ŚLĄSKI
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_74d87de009e6021cfc9428b2d0476ade = L.marker(
+                [50.204, 19.274],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_ac76c63c478806e9e79a26024a39a345 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95365f8931165d1e35da4a54a08ed783 = $(`<div id="html_95365f8931165d1e35da4a54a08ed783" style="width: 100.0%; height: 100.0%;"><b>GKS VICTORIA JAWORZNO</b><br/>Miasto: Jaworzno</div>`)[0];
+            popup_ac76c63c478806e9e79a26024a39a345.setContent(html_95365f8931165d1e35da4a54a08ed783);
+        
+
+        marker_74d87de009e6021cfc9428b2d0476ade.bindPopup(popup_ac76c63c478806e9e79a26024a39a345)
+        ;
+
+        
+    
+    
+            marker_74d87de009e6021cfc9428b2d0476ade.bindTooltip(
+                `<div>
+                     GKS VICTORIA JAWORZNO
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ece8120a07fa559f33e086e84b095a63 = L.marker(
+                [50.292, 18.964],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_85de1f847d09b1da5430f42df01d5019 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1641f3b450d82f4c6eee5dec2839afab = $(`<div id="html_1641f3b450d82f4c6eee5dec2839afab" style="width: 100.0%; height: 100.0%;"><b>KS STADION ŚLĄSKI CHORZÓW</b><br/>Miasto: Stadion Śląski (Chorzów)</div>`)[0];
+            popup_85de1f847d09b1da5430f42df01d5019.setContent(html_1641f3b450d82f4c6eee5dec2839afab);
+        
+
+        marker_ece8120a07fa559f33e086e84b095a63.bindPopup(popup_85de1f847d09b1da5430f42df01d5019)
+        ;
+
+        
+    
+    
+            marker_ece8120a07fa559f33e086e84b095a63.bindTooltip(
+                `<div>
+                     KS STADION ŚLĄSKI CHORZÓW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69b0e8ce81d6e156392851571d1abd2e = L.marker(
+                [49.655, 18.861],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_a3516736b860bd98e2bf9e764221d351 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa70b1463e669b869b504b8b4a3bea72 = $(`<div id="html_aa70b1463e669b869b504b8b4a3bea72" style="width: 100.0%; height: 100.0%;"><b>WIŚLAŃSKIE STOWARZYSZENIE SPORTOWE</b><br/>Miasto: Wisła</div>`)[0];
+            popup_a3516736b860bd98e2bf9e764221d351.setContent(html_aa70b1463e669b869b504b8b4a3bea72);
+        
+
+        marker_69b0e8ce81d6e156392851571d1abd2e.bindPopup(popup_a3516736b860bd98e2bf9e764221d351)
+        ;
+
+        
+    
+    
+            marker_69b0e8ce81d6e156392851571d1abd2e.bindTooltip(
+                `<div>
+                     WIŚLAŃSKIE STOWARZYSZENIE SPORTOWE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2533df595b2ec995bd860d8f94828c0a = L.marker(
+                [50.0647, 19.945],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_4d1d2597660a76fd911730d31ae2f235 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1f6010d888b5d8805ed87332a2eeb84 = $(`<div id="html_a1f6010d888b5d8805ed87332a2eeb84" style="width: 100.0%; height: 100.0%;"><b>Robotniczy Klub Sportowy Garbarnia Kraków</b><br/>Miasto: Kraków</div>`)[0];
+            popup_4d1d2597660a76fd911730d31ae2f235.setContent(html_a1f6010d888b5d8805ed87332a2eeb84);
+        
+
+        marker_2533df595b2ec995bd860d8f94828c0a.bindPopup(popup_4d1d2597660a76fd911730d31ae2f235)
+        ;
+
+        
+    
+    
+            marker_2533df595b2ec995bd860d8f94828c0a.bindTooltip(
+                `<div>
+                     Robotniczy Klub Sportowy Garbarnia Kraków
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3f4f4e1dc2d91ac7f236706eaee0ce30 = L.marker(
+                [49.748, 18.634],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_0d24bdb1b8cbcc109606107eabefb5d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f90929bf13eba4ce2dc98c1675c79e18 = $(`<div id="html_f90929bf13eba4ce2dc98c1675c79e18" style="width: 100.0%; height: 100.0%;"><b>UKS CIESZYN</b><br/>Miasto: Cieszyn</div>`)[0];
+            popup_0d24bdb1b8cbcc109606107eabefb5d7.setContent(html_f90929bf13eba4ce2dc98c1675c79e18);
+        
+
+        marker_3f4f4e1dc2d91ac7f236706eaee0ce30.bindPopup(popup_0d24bdb1b8cbcc109606107eabefb5d7)
+        ;
+
+        
+    
+    
+            marker_3f4f4e1dc2d91ac7f236706eaee0ce30.bindTooltip(
+                `<div>
+                     UKS CIESZYN
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0c744124a8c50b97850cbd2164141286 = L.marker(
+                [50.091, 18.219],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_65a0786ace961b401b0c9f0cba05e528 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0cf64f81fc0ff3c65c671e3e0c6fdc63 = $(`<div id="html_0cf64f81fc0ff3c65c671e3e0c6fdc63" style="width: 100.0%; height: 100.0%;"><b>LKS OCICE RACIBÓRZ</b><br/>Miasto: Racibórz</div>`)[0];
+            popup_65a0786ace961b401b0c9f0cba05e528.setContent(html_0cf64f81fc0ff3c65c671e3e0c6fdc63);
+        
+
+        marker_0c744124a8c50b97850cbd2164141286.bindPopup(popup_65a0786ace961b401b0c9f0cba05e528)
+        ;
+
+        
+    
+    
+            marker_0c744124a8c50b97850cbd2164141286.bindTooltip(
+                `<div>
+                     LKS OCICE RACIBÓRZ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62c0af5d9765aa426da2f88b856cfd36 = L.marker(
+                [49.565, 18.915],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_802edec252063120bd4a9d6b6c2d2a7e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18dfc5f7bb0228179df66d3e372f0204 = $(`<div id="html_18dfc5f7bb0228179df66d3e372f0204" style="width: 100.0%; height: 100.0%;"><b>UKS APN GÓRAL ISTEBNA</b><br/>Miasto: Istebna</div>`)[0];
+            popup_802edec252063120bd4a9d6b6c2d2a7e.setContent(html_18dfc5f7bb0228179df66d3e372f0204);
+        
+
+        marker_62c0af5d9765aa426da2f88b856cfd36.bindPopup(popup_802edec252063120bd4a9d6b6c2d2a7e)
+        ;
+
+        
+    
+    
+            marker_62c0af5d9765aa426da2f88b856cfd36.bindTooltip(
+                `<div>
+                     UKS APN GÓRAL ISTEBNA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8c97048805fc7c90152448cb726de5c3 = L.marker(
+                [50.048, 18.692],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_ac2a5b97a780b417eac02e55c4f8c2e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fdceabbed4e018c27347d46990318c97 = $(`<div id="html_fdceabbed4e018c27347d46990318c97" style="width: 100.0%; height: 100.0%;"><b>UKS AP ŻORY</b><br/>Miasto: Żory</div>`)[0];
+            popup_ac2a5b97a780b417eac02e55c4f8c2e6.setContent(html_fdceabbed4e018c27347d46990318c97);
+        
+
+        marker_8c97048805fc7c90152448cb726de5c3.bindPopup(popup_ac2a5b97a780b417eac02e55c4f8c2e6)
+        ;
+
+        
+    
+    
+            marker_8c97048805fc7c90152448cb726de5c3.bindTooltip(
+                `<div>
+                     UKS AP ŻORY
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fc833a3f047dfc8b8a226852c165c9a2 = L.marker(
+                [50.255, 18.856],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_f17181cdc26b3c99bc3db64c027f509f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dff1eaf75da3c0f052b481c8d8d50b74 = $(`<div id="html_dff1eaf75da3c0f052b481c8d8d50b74" style="width: 100.0%; height: 100.0%;"><b>SRS GWIAZDA RUDA ŚLĄSKA</b><br/>Miasto: Ruda Śląska</div>`)[0];
+            popup_f17181cdc26b3c99bc3db64c027f509f.setContent(html_dff1eaf75da3c0f052b481c8d8d50b74);
+        
+
+        marker_fc833a3f047dfc8b8a226852c165c9a2.bindPopup(popup_f17181cdc26b3c99bc3db64c027f509f)
+        ;
+
+        
+    
+    
+            marker_fc833a3f047dfc8b8a226852c165c9a2.bindTooltip(
+                `<div>
+                     SRS GWIAZDA RUDA ŚLĄSKA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_51ecd3f4bf7d6321c2a8eabdb68fc2e8 = L.marker(
+                [50.097, 18.541],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_5722f03c7a759dd932ebb01b2ecedd99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6c79b8d3c2f94cb41c6f9ec52c48844 = $(`<div id="html_e6c79b8d3c2f94cb41c6f9ec52c48844" style="width: 100.0%; height: 100.0%;"><b>AP RYMER RYBNIK</b><br/>Miasto: Rybnik</div>`)[0];
+            popup_5722f03c7a759dd932ebb01b2ecedd99.setContent(html_e6c79b8d3c2f94cb41c6f9ec52c48844);
+        
+
+        marker_51ecd3f4bf7d6321c2a8eabdb68fc2e8.bindPopup(popup_5722f03c7a759dd932ebb01b2ecedd99)
+        ;
+
+        
+    
+    
+            marker_51ecd3f4bf7d6321c2a8eabdb68fc2e8.bindTooltip(
+                `<div>
+                     AP RYMER RYBNIK
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a1e76551007fa4421dbcd2b0cd7b1cac = L.marker(
+                [50.139, 19.404],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_0f0e54d6383a1645a3b0744c39c8c424 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f7afca64ab2e18bd8c62627d396df3a = $(`<div id="html_4f7afca64ab2e18bd8c62627d396df3a" style="width: 100.0%; height: 100.0%;"><b>MKS FABLOK CHRZANÓW</b><br/>Miasto: Chrzanów</div>`)[0];
+            popup_0f0e54d6383a1645a3b0744c39c8c424.setContent(html_4f7afca64ab2e18bd8c62627d396df3a);
+        
+
+        marker_a1e76551007fa4421dbcd2b0cd7b1cac.bindPopup(popup_0f0e54d6383a1645a3b0744c39c8c424)
+        ;
+
+        
+    
+    
+            marker_a1e76551007fa4421dbcd2b0cd7b1cac.bindTooltip(
+                `<div>
+                     MKS FABLOK CHRZANÓW
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ed3a81a27f342bc5e79b1f16e5fbfc5f = L.marker(
+                [50.069, 18.417],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_4a7b3f592649c0ee91f3e656d5587fb8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d152072ed44bad8ab9f794c4c04367bb = $(`<div id="html_d152072ed44bad8ab9f794c4c04367bb" style="width: 100.0%; height: 100.0%;"><b>GKS NAPRZÓD-23 RYDUŁTOWY</b><br/>Miasto: Rydułtowy</div>`)[0];
+            popup_4a7b3f592649c0ee91f3e656d5587fb8.setContent(html_d152072ed44bad8ab9f794c4c04367bb);
+        
+
+        marker_ed3a81a27f342bc5e79b1f16e5fbfc5f.bindPopup(popup_4a7b3f592649c0ee91f3e656d5587fb8)
+        ;
+
+        
+    
+    
+            marker_ed3a81a27f342bc5e79b1f16e5fbfc5f.bindTooltip(
+                `<div>
+                     GKS NAPRZÓD-23 RYDUŁTOWY
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_89baba94d5a9620c4db2bf422e832fcf = L.marker(
+                [50.122, 19.034],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_9da7360713a8fda8b8ac77cccd4c0934 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56ac30200175941716fa477ccab3d208 = $(`<div id="html_56ac30200175941716fa477ccab3d208" style="width: 100.0%; height: 100.0%;"><b>OKS JUWE TYCHY - JAROSZOWICE</b><br/>Miasto: OKS JUWE (Tychy-Jaroszowice)</div>`)[0];
+            popup_9da7360713a8fda8b8ac77cccd4c0934.setContent(html_56ac30200175941716fa477ccab3d208);
+        
+
+        marker_89baba94d5a9620c4db2bf422e832fcf.bindPopup(popup_9da7360713a8fda8b8ac77cccd4c0934)
+        ;
+
+        
+    
+    
+            marker_89baba94d5a9620c4db2bf422e832fcf.bindTooltip(
+                `<div>
+                     OKS JUWE TYCHY - JAROSZOWICE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1808b221920275188f5af67464c613ae = L.marker(
+                [50.286, 19.104],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_9f424b358510484a46784323758f8655 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d64a05aeaa4702119d728accdab5884 = $(`<div id="html_9d64a05aeaa4702119d728accdab5884" style="width: 100.0%; height: 100.0%;"><b>KS GÓRNIK SOSNOWIEC</b><br/>Miasto: Sosnowiec</div>`)[0];
+            popup_9f424b358510484a46784323758f8655.setContent(html_9d64a05aeaa4702119d728accdab5884);
+        
+
+        marker_1808b221920275188f5af67464c613ae.bindPopup(popup_9f424b358510484a46784323758f8655)
+        ;
+
+        
+    
+    
+            marker_1808b221920275188f5af67464c613ae.bindTooltip(
+                `<div>
+                     KS GÓRNIK SOSNOWIEC
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b84bc73330450345c280c9f966c64bd8 = L.marker(
+                [50.065, 18.939],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_d579b5a7eff8531d4d528ee7aab8ce92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81a2f932adcba2de631eb476cdff9342 = $(`<div id="html_81a2f932adcba2de631eb476cdff9342" style="width: 100.0%; height: 100.0%;"><b>LKS LEŚNIK KOBIÓR</b><br/>Miasto: Kobiór</div>`)[0];
+            popup_d579b5a7eff8531d4d528ee7aab8ce92.setContent(html_81a2f932adcba2de631eb476cdff9342);
+        
+
+        marker_b84bc73330450345c280c9f966c64bd8.bindPopup(popup_d579b5a7eff8531d4d528ee7aab8ce92)
+        ;
+
+        
+    
+    
+            marker_b84bc73330450345c280c9f966c64bd8.bindTooltip(
+                `<div>
+                     LKS LEŚNIK KOBIÓR
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0bf303f79ff75f4083f45d38dee4b523 = L.marker(
+                [49.894, 18.498],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_63d6b92b7f1c65ede72f9feada6eff31 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dfc14efec301ed84230bcf976676a292 = $(`<div id="html_dfc14efec301ed84230bcf976676a292" style="width: 100.0%; height: 100.0%;"><b>UKS SP WINNERS GOŁKOWICE</b><br/>Miasto: Gołkowice (Wodzisław)</div>`)[0];
+            popup_63d6b92b7f1c65ede72f9feada6eff31.setContent(html_dfc14efec301ed84230bcf976676a292);
+        
+
+        marker_0bf303f79ff75f4083f45d38dee4b523.bindPopup(popup_63d6b92b7f1c65ede72f9feada6eff31)
+        ;
+
+        
+    
+    
+            marker_0bf303f79ff75f4083f45d38dee4b523.bindTooltip(
+                `<div>
+                     UKS SP WINNERS GOŁKOWICE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c52ad77edc8a15b2492d677da7bae862 = L.marker(
+                [50.286, 19.104],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_248bf687ebb4058350f197238aebc76c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14daac4752668343f77318b71b66f42c = $(`<div id="html_14daac4752668343f77318b71b66f42c" style="width: 100.0%; height: 100.0%;"><b>KKS CZARNI SOSNOWIEC</b><br/>Miasto: Sosnowiec</div>`)[0];
+            popup_248bf687ebb4058350f197238aebc76c.setContent(html_14daac4752668343f77318b71b66f42c);
+        
+
+        marker_c52ad77edc8a15b2492d677da7bae862.bindPopup(popup_248bf687ebb4058350f197238aebc76c)
+        ;
+
+        
+    
+    
+            marker_c52ad77edc8a15b2492d677da7bae862.bindTooltip(
+                `<div>
+                     KKS CZARNI SOSNOWIEC
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5550e27c187ee21e9efc2694083a2512 = L.marker(
+                [50.2649, 19.0238],
+                {}
+            ).addTo(marker_cluster_8a7ad5699ec5edc2096b558a1130c616);
+        
+    
+        var popup_71d7a802ebf3dcea053453b21f06e546 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9925cc7be1e2d0febe48f6fea2c53e8d = $(`<div id="html_9925cc7be1e2d0febe48f6fea2c53e8d" style="width: 100.0%; height: 100.0%;"><b>UKS TALENT KATOWICE</b><br/>Miasto: Katowice</div>`)[0];
+            popup_71d7a802ebf3dcea053453b21f06e546.setContent(html_9925cc7be1e2d0febe48f6fea2c53e8d);
+        
+
+        marker_5550e27c187ee21e9efc2694083a2512.bindPopup(popup_71d7a802ebf3dcea053453b21f06e546)
+        ;
+
+        
+    
+    
+            marker_5550e27c187ee21e9efc2694083a2512.bindTooltip(
+                `<div>
+                     UKS TALENT KATOWICE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var heat_map_e973af43d7e23dcb0c9c7d9d77e611d9 = L.heatLayer(
+                [[50.148, 18.842], [50.137, 18.966], [50.202, 19.171], [50.203, 18.755], [50.101, 18.905], [50.2649, 19.0238], [50.134, 18.777], [50.091, 19.092], [50.017, 19.063], [50.299, 18.954], [49.955, 18.6], [49.8225, 19.0444], [50.324, 18.785], [50.137, 18.966], [50.103, 19.315], [49.626, 19.126], [50.675, 17.924], [49.689, 19.199], [50.321, 19.19], [51.069, 19.444], [50.873, 20.63], [49.847, 18.589], [50.139, 19.404], [49.955, 18.6], [50.811, 19.12], [49.985, 19.079], [50.902, 18.939], [50.017, 19.063], [50.18, 19.128], [50.321, 19.19], [50.811, 19.12], [50.205, 18.896], [49.988, 19.262], [49.888, 18.618], [50.204, 19.274], [49.981, 18.919], [50.282, 19.563], [49.85, 18.999], [49.956, 18.981], [49.98, 18.938], [49.79, 19.005], [50.153, 18.677], [50.846, 18.94], [50.324, 18.785], [50.019, 18.846], [49.981, 19.151], [49.786, 18.796], [50.511, 18.3], [50.171, 18.904], [50.003, 18.471], [50.204, 19.274], [50.292, 18.964], [49.655, 18.861], [50.0647, 19.945], [49.748, 18.634], [50.091, 18.219], [49.565, 18.915], [50.048, 18.692], [50.255, 18.856], [50.097, 18.541], [50.139, 19.404], [50.069, 18.417], [50.122, 19.034], [50.286, 19.104], [50.065, 18.939], [49.894, 18.498], [50.286, 19.104], [50.2649, 19.0238]],
+                {"blur": 15, "maxZoom": 12, "minOpacity": 0.5, "radius": 18}
+            ).addTo(map_b8982da961651f7a8801e932158ebb4c);
+        
+</script>
+</html>
